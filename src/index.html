@@ -5,9 +5,126 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MP1</title>
+        <script src="https://kit.fontawesome.com/dcab48890f.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <h1>Hello World! Welcome to MP1!</h1>
-        <img src="assets/image.jpg">
+        <div id="navbar"> 
+            <div id="navLogoCont">
+                <div id="navLogo">
+                    HTML/CSS Website
+                </div>
+                
+            </div>
+            <div id="navlinkCont"> 
+                <a id="carLink"   class="navlink" href="#carousel"> Carousel</a>
+                <a id="modLink"   class="navlink" href="#modalBlock"> Modal</a>
+                <a id="imLink"   class="navlink" href="#polarBear"> Fixed Image</a>
+                <a id="multLink"   class="navlink" href="#multCol"> MultiColumn Section</a>
+                <a id="trampLink"   class="navlink" href="#trampHolder"> CSS Animation</a>
+                <a id="vidLink"   class="navlink" href="#flowers"> Video</a>
+
+            </div> 
+        </div>
+        <div id="header">
+            <i class="fa-regular fa-house fa-2xl"></i>
+
+            <h1> MP1 Website</h1>
+
+            <h2> This page is a template to build a website with all of the features required</h2>
+        </div>
+        <div id="carousel">
+            <div class="carousel">
+                <h1> This is a carousel of bears</h1>
+                <h2> It's the bear-ousel</h2>
+                <div class="slides">
+                    <img src="assets/image1.jpg">
+                    <img src="assets/grizzlyBear.png">
+                    <img src="assets/image.jpg">
+                </div>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+        </div>
+
+        <div class="modal" id="modal1"> 
+            <img src="assets/grizzlyBear.png">
+            <div id="close1" class="closeButton"> Close Modal</div>
+        </div>
+        <div class="modal" id="modal2"> 
+            <img src="assets/image1.jpg">
+            <div id="close2" class="closeButton"> Close Modal</div>
+        </div>
+        <div class="modal" id="modal3"> 
+            <img src="assets/image.jpg">
+            <div id="close3" class="closeButton"> Close Modal</div>
+        </div>
+
+        <div id="modalBlock">
+            <h1> Here are the modals</h1>
+            <div id="modalHolder"> 
+                <div id="grizzModal" class="modalIm">
+                    <img src="assets/grizzlyBear.png">
+                    <img class="overlay" src="assets/overlay.png">
+                </div>
+                <div id="origModal" class="modalIm">
+                    <img src="assets/image1.jpg">
+                    <img class="overlay" src="assets/overlay.png">
+                </div>
+                <div id="polarModal" class="modalIm">
+                    <img src="assets/image.jpg">
+                    <img class="overlay" src="assets/overlay.png">
+                </div>
+            </div>
+        </div>
+        <img src="assets/image.jpg" class="fixedImage">
+        <div id="polarBear" class="transparent"> 
+            <h1> This is the part of the website with a fixed image.</h1>
+            <p> This image of a polar bear is fixed as we scroll the page.</p>
+        </div>
+        <div id="multCol">
+            <div id="col1" class="colMulti">
+                <h1> This is the First Column</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div id="col2" class="colMulti">
+                <h1> This is the Second Column</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div id="col3" class="colMulti">
+                <h1> This is the Third Column</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <div id="trampHolder">
+            <div id="trampolineIntro">
+                <h1> Here is me on a trampoline</h1>
+                <h2> It's a CSS animation</h2>
+            </div>
+            <div id="trampoline">
+                <img id="bouncingGuy" src="assets/headshot.png">
+                <img id="trampIm" src="assets/trampoline.jpeg">
+            </div>
+        </div>
+        <div id="flowers"> 
+            <video autoplay muted loop src="assets/flowers.mp4" id="vid"></video> 
+            <div id="vidText">
+                <h1> This is a video inside the website</h1>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <i class="fa-regular fa-house fa-2xl"></i>
+            <h2> Footer</h2>
+            <h3> Follow us on these social platforms</h4>
+            <span> 
+                <a href="https://www.youtube.com/"><i id="youtube" class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/"><i id="instagram" class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/"><i id="tiktok" class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.twitter.com/"><i id="twitter" class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/"><i id="linkedin" class="fa-brands fa-linkedin"></i></a>
+
+                
+            </span>
+        </div>
     </body>
 </html>
